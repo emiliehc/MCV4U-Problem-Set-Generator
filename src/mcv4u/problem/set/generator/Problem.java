@@ -9,6 +9,8 @@ package mcv4u.problem.set.generator;
  *
  * @author nanjingchj
  */
-public class Problem {
-    
+public interface Problem {
+
+    @Override
+    public String toString();
 }
