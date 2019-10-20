@@ -41,5 +41,5 @@ public class MCV4UProblemSetGenerator {
         int type = Integer.parseInt(JOptionPane.showInputDialog(p1));
         JOptionPane.showMessageDialog(null, p1.checkAnswer(type));
     }
-    
+
 }
